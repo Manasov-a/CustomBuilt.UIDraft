@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -15,7 +16,6 @@
 </head>
 
 <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -116,5 +116,12 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    
+    <?php
+        include 'DBconfig.php';
+    ?>
+
+
 </body>
 </html>

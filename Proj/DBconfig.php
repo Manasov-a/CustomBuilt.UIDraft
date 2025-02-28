@@ -1,8 +1,12 @@
+
 <?php
+/*
+code used was obtained from the Software Engineering & Testing Brightspace page
+*/
   $servername = "localhost"; 
   $username = "root"; 
-  $password = "";
-  $dbname = "MyDatabase"; 
+  $password = "toor";
+  $dbname = "custombuilt"; 
 
   $conn = mysqli_connect($servername, $username, $password, $dbname);
 
