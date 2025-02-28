@@ -27,8 +27,8 @@
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="Product.php">Products</a>
-                    <li><a href="About.php">About</a></li>
-                    <li class="active"><a href="Contact.php">Contact</a></li>
+                    <li class="active"><a href="About.php">About</a></li>
+                    <li><a href="Contact.php">Contact</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                         <ul class="dropdown-menu">

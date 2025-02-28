@@ -12,11 +12,6 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -34,8 +29,8 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="Products">Products</a></li>
-                    <li><a href="about">About</a></li>
+                    <li><a href="Product.php">Products</a></li>
+                    <li><a href="About.php">About</a></li>
                     <li><a href="Contact.php">Contact</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -48,9 +43,14 @@
                             <li><a href="#">Separated link</a></li>
                             <li><a href="#">One more separated link</a></li>
                         </ul>
+                        <li>
+                        <form class="navbar-form" method="GET" action="">
+                            <input type="text" name="search" class="form-control" placeholder="Search...">
+                        </form>
+                    </li>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-right">
+                <form class="navbar-form navbar-right" method="post">
                     <div class="form-group">
                         <input type="text" placeholder="Email" class="form-control">
                     </div>
@@ -84,21 +84,21 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2>Trending Builds</h2>
 
                 <p> </p>
 
                 <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2>Completed Builds</h2>
 
                 <p></p>
 
                 <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2>Budget Builds</h2>
 
                 <p></p>
 

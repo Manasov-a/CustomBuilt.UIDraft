@@ -26,9 +26,9 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="Product.php">Products</a>
+                    <li class="active"><a href="Product.php">Products</a>
                     <li><a href="About.php">About</a></li>
-                    <li class="active"><a href="Contact.php">Contact</a></li>
+                    <li><a href="Contact.php">Contact</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -40,6 +40,11 @@
                             <li><a href="#">Separated link</a></li>
                             <li><a href="#">One more separated link</a></li>
                         </ul>
+                        <li>
+                        <form class="navbar-form" method="GET" action="">
+                            <input type="text" name="search" class="form-control" placeholder="Search...">
+                        </form>
+                    </li>
                     </li>
                 </ul>
     
